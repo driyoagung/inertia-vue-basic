@@ -35,6 +35,7 @@ Dokumen ini memetakan cara belajar Vue 3 (Composition API) dengan pendekatan **s
 4. **[study-cases/01-todo-app.md](./study-cases/01-todo-app.md)** — `v-for`, `v-model`, event emit, filter
 5. **[study-cases/02-product-search.md](./study-cases/02-product-search.md)** — `computed`, `watch`, debounce, Inertia visit
 6. **[study-cases/03-auth-flow.md](./study-cases/03-auth-flow.md)** — `useForm`, validasi, error bag, redirect
+7. **[study-cases/04-combobox-searchable-primevue.md](./study-cases/04-combobox-searchable-primevue.md)** — PrimeVue `Select filter` + `AutoComplete` (search server-side), race-condition guard, slot template
 
 ---
 
@@ -49,6 +50,7 @@ Dokumen ini memetakan cara belajar Vue 3 (Composition API) dengan pendekatan **s
 | 5 | **Tabs / Accordion** | `v-show`, dynamic component `<component :is>`, `v-slot` | Menengah |
 | 6 | **CRUD dengan Pagination** | Inertia `<Link preserve-scroll>`, deferred props, partial reload | Lanjut |
 | 7 | **Drag & Drop Kanban** | `provide/inject`, `transition`, custom directive | Lanjut |
+| 8 | **Combobox Searchable (PrimeVue)** | `<Select filter>`, `<AutoComplete>`, slot template, race-condition guard, API search | Menengah |
 
 > Mulai dari studi kasus #1. Setelah nyaman, loncat ke #2 atau #3 sesuai kebutuhan.
 
@@ -91,7 +93,8 @@ docs/
 └── study-cases/
     ├── 01-todo-app.md
     ├── 02-product-search.md
-    └── 03-auth-flow.md
+    ├── 03-auth-flow.md
+    └── 04-combobox-searchable-primevue.md
 ```
 
 Selamat belajar!
