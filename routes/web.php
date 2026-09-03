@@ -7,3 +7,5 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/study-cases/tanstack-table', [App\Http\Controllers\EmployeeController::class, 'index'])->name('study-cases.tanstack-table');
