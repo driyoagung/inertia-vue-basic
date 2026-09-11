@@ -10,6 +10,13 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
+        <!-- Tailwind CSS (requested by user) -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Toastify CSS & JS -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
         <!-- Scripts -->
         @routes
         @vite(['resources/css/app.css', 'resources/js/app.js'])
