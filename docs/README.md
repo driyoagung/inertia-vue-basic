@@ -35,6 +35,7 @@ Dokumen ini memetakan cara belajar Vue 3 (Composition API) dengan pendekatan **s
 4. **[study-cases/01-todo-app.md](./study-cases/01-todo-app.md)** — `v-for`, `v-model`, event emit, filter
 5. **[study-cases/02-product-search.md](./study-cases/02-product-search.md)** — `computed`, `watch`, debounce, Inertia visit
 6. **[study-cases/03-auth-flow.md](./study-cases/03-auth-flow.md)** — `useForm`, validasi, error bag, redirect
+7. **[study-cases/04-multiple-select-tags.md](./study-cases/04-multiple-select-tags.md)** — multi-select Vue, array validation, Eloquent many-to-many, pivot `sync()`
 
 ---
 
@@ -91,7 +92,8 @@ docs/
 └── study-cases/
     ├── 01-todo-app.md
     ├── 02-product-search.md
-    └── 03-auth-flow.md
+    ├── 03-auth-flow.md
+    └── 04-multiple-select-tags.md
 ```
 
 Selamat belajar!
